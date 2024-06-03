@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--this file is applicable api 31 i.e android 12 and above-->
+<resources>
+    <style name="Theme.SplashScreen.Animated" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/avd_andhradairy</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.AnimatedSplashScreen</item>
+    </style>
+</resources>
